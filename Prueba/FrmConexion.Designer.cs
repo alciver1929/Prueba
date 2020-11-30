@@ -1,6 +1,6 @@
 ﻿namespace Prueba
 {
-    partial class Form1
+    partial class Prueba
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -33,22 +33,22 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(86, 118);
+            this.button1.Location = new System.Drawing.Point(36, 32);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(128, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Mostrar estado";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.BtnMostra_Click);
             // 
-            // Form1
+            // Prueba
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(258, 159);
+            this.ClientSize = new System.Drawing.Size(206, 81);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Prueba";
+            this.Text = "Prueba";
             this.ResumeLayout(false);
 
         }

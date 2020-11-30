@@ -27,6 +27,10 @@ namespace Prueba
             {
                 MessageBox.Show("error" + e.Message);
             }
+            finally
+            {
+                MessageBox.Show("Desconectado");
+            }
         }
     }
    

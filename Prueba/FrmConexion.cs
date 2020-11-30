@@ -10,14 +10,16 @@ using System.Windows.Forms;
 
 namespace Prueba
 {
-    public partial class Form1 : Form
+    public partial class Prueba : Form
     {
-        public Form1()
+        public Prueba()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+       
+
+        private void BtnMostra_Click(object sender, EventArgs e)
         {
             ConexionBd con = new ConexionBd();
             con.conectar();
